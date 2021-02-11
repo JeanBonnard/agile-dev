@@ -82,23 +82,29 @@ ion-icon {
 
 /*FEATURE*/
 
+
 .text1 {
-    padding-top: 30%;
+    padding-top: 10%;
     text-align: right;
 } 
 
 .text2 {
-    padding-top: 20% ;
+    padding-top: 10% ;
     text-align: left;
    }
 
 .imgJ {
+    
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 5%
 }
+
+.Isabella {
+    height: 53vw;
+}
+
 #winaphone{
     padding: 30px;
 }
 
 /*FEATURE*/
-
