@@ -36,3 +36,24 @@ display: flex;
 .benefice_texte button{
     margin-top:  20px;
 }
+
+
+
+/*FEATURE*/
+
+.text1 {
+    padding-top: 30%;
+    text-align: right;
+} 
+
+.text2 {
+    padding-top: 20% ;
+    text-align: left;
+   }
+
+.imgJ {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*FEATURE*/
