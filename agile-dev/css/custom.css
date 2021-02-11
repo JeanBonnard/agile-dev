@@ -1,33 +1,50 @@
 
 /* HERO HEARDER */
 .color{
-    background-color: rgb(200, 213, 252);
+    background-color: rgb(237, 228, 255);
 }
 #navbar-l{
     height: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
-
+.logo-l{
+    height: 43px;
+    padding-left: 15px;
+}
 .img-l{
     padding-top: 40px;
 }
 
 .text-l{
-    padding-top: 200px;
+    padding-top: 170px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
 }
-
+.text-lyna{
+    padding-top: 13px;
+}
 .title-l{
+    padding-top: 20px;
     font-size:  50px;
     font-weight: bold;
 
 }
 .button-l{
-    width: 130px;
-    height: auto;
-    text-align: left;
+    padding-top: 13px;
+    width: 150px;
+}
+.btn-light{
+    background-color: rgb(217, 137, 241);
+    border: none;
+    font-size: 20px;
+}
+.navbar-nav{
+    padding-right: 30px;
+}
+.nav-item{
+    padding-right: 30px;
+    font-size: 20px;
 }
 /* HERO HEARDER */
 
@@ -70,13 +87,13 @@ footer{
     color: white;
 }
 ion-icon {
-    font-size: 40px;
+    font-size: 45px;
 
   }
   .container_icon{
       
-      justify-content: flex-end;
-      margin-top: 30px;
+    justify-content: flex-end;
+    padding-top: 5px;
     margin-right: 70px;  }
 
 
@@ -102,3 +119,22 @@ ion-icon {
 
 /*FEATURE*/
 
+/* FOOTER */
+
+.button-footer{
+background-color: rgb(217, 137, 241);
+color: black;
+padding-top: 15px;
+}
+.input-group{
+    max-width: 40%;
+}
+
+.text-footer{
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* FOOTER */
