@@ -1,3 +1,4 @@
+
 /* HERO HEARDER */
 .color{
     background-color: rgb(200, 213, 252);
@@ -29,3 +30,64 @@
     text-align: left;
 }
 /* HERO HEARDER */
+
+body{
+display: flex;
+}
+
+.benefice_image{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.benefice_image img{
+
+    width: 40vw;
+    margin: 50px;
+    align-content: center;
+}
+
+.benefice_texte{
+
+    font-size: 25px; 
+    margin-top: 180px; 
+    margin-left: 50px;
+    text-align: left;
+}
+
+.benefice_texte h2{
+
+    padding-top: 200px;
+    margin-bottom: 20px;
+}
+
+.benefice_texte p{
+    text-align: left;
+}
+
+.benefice_texte button{
+    margin-top:  20px;
+}
+
+
+
+/*FEATURE*/
+
+.text1 {
+    padding-top: 30%;
+    text-align: right;
+} 
+
+.text2 {
+    padding-top: 20% ;
+    text-align: left;
+   }
+
+.imgJ {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*FEATURE*/
+
