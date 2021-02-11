@@ -39,30 +39,36 @@
     align-items: center;
 }
 
+
+
 .benefice_image img{
 
     width: 20vw;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
 }
 
 .benefice_texte{
-
     font-size: 25px;
     text-align: left;
+    align-content: center;  
+    margin-left: 50px; 
+}
+
+.benefice_texte2{
+    font-size: 25px;
+    text-align: right;
+    align-content: center;
+    margin-right: 50px;
 }
 
 .benefice_texte h2{
-
-    padding-top: 200px;
+    margin-top: 25%;
     margin-bottom: 20px;
 }
-
-.benefice_texte p{
-    text-align: left;
-}
-
-.benefice_texte button{
-    margin-top:  20px;
+.benefice_texte2 h2{
+    margin-top: 25%;
+    margin-bottom: 20px;
 }
 
 footer{
@@ -73,12 +79,23 @@ ion-icon {
     font-size: 40px;
 
   }
-  .container_icon{
+.container_icon{
       
-      justify-content: flex-end;
-      margin-top: 30px;
-    margin-right: 70px;  }
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 70px;  
+}
 
+.benefice .bouton{
+    border-radius: 0%;
+    border: none;
+    background-color: rgb(217, 137, 241);
+}
+.benefice2 .bouton{
+    border-radius: 0%;
+    border: none;
+    background-color: rgb(217, 137, 241);
+}
 
 /*FEATURE*/
 
