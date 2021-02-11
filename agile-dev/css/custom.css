@@ -1,33 +1,50 @@
 
 /* HERO HEARDER */
 .color{
-    background-color: rgb(200, 213, 252);
+    background-color: rgb(237, 228, 255);
 }
 #navbar-l{
     height: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
-
+.logo-l{
+    height: 43px;
+    padding-left: 15px;
+}
 .img-l{
     padding-top: 40px;
 }
 
 .text-l{
-    padding-top: 200px;
+    padding-top: 170px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
 }
-
+.text-lyna{
+    padding-top: 13px;
+}
 .title-l{
+    padding-top: 20px;
     font-size:  50px;
     font-weight: bold;
 
 }
 .button-l{
-    width: 130px;
-    height: auto;
-    text-align: left;
+    padding-top: 13px;
+    width: 150px;
+}
+.btn-light{
+    background-color: rgb(217, 137, 241);
+    border: none;
+    font-size: 20px;
+}
+.navbar-nav{
+    padding-right: 30px;
+}
+.nav-item{
+    padding-right: 30px;
+    font-size: 20px;
 }
 /* HERO HEARDER */
 
@@ -39,30 +56,36 @@
     align-items: center;
 }
 
+
+
 .benefice_image img{
 
     width: 20vw;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
 }
 
 .benefice_texte{
-
     font-size: 25px;
     text-align: left;
+    align-content: center;  
+    margin-left: 50px; 
+}
+
+.benefice_texte2{
+    font-size: 25px;
+    text-align: right;
+    align-content: center;
+    margin-right: 50px;
 }
 
 .benefice_texte h2{
-
-    padding-top: 200px;
+    margin-top: 25%;
     margin-bottom: 20px;
 }
-
-.benefice_texte p{
-    text-align: left;
-}
-
-.benefice_texte button{
-    margin-top:  20px;
+.benefice_texte2 h2{
+    margin-top: 25%;
+    margin-bottom: 20px;
 }
 
 footer{
@@ -70,15 +93,26 @@ footer{
     color: white;
 }
 ion-icon {
-    font-size: 40px;
+    font-size: 45px;
 
   }
-  .container_icon{
+.container_icon{
       
-      justify-content: flex-end;
-      margin-top: 30px;
-    margin-right: 70px;  }
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 70px;  
+}
 
+.benefice .bouton{
+    border-radius: 0%;
+    border: none;
+    background-color: rgb(217, 137, 241);
+}
+.benefice2 .bouton{
+    border-radius: 0%;
+    border: none;
+    background-color: rgb(217, 137, 241);
+}
 
 /*FEATURE*/
 
@@ -106,5 +140,47 @@ ion-icon {
 #winaphone{
     padding: 30px;
 }
-
+.iphone{
+    height: 15vw;
+    padding-top: 10%;
+}
+#lorem{
+    text-align: center;
+    margin-top: 15px;
+}
+#photo3{
+    background-color: rgb(217, 137, 241);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+.booton{
+    border-radius: 0%;
+    background-color: rgb(217, 137, 241);
+    border: none;
+}
+.booton:hover{
+    background-color: rgb(217, 137, 241) !important;
+}
 /*FEATURE*/
+
+
+/* FOOTER */
+
+.button-footer{
+background-color: rgb(217, 137, 241);
+color: black;
+padding-top: 15px;
+}
+.input-group{
+    max-width: 40%;
+}
+
+.text-footer{
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* FOOTER */
