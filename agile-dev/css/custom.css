@@ -1,0 +1,38 @@
+body{
+display: flex;
+}
+
+.benefice_image{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.benefice_image img{
+
+    width: 40vw;
+    margin: 50px;
+    align-content: center;
+}
+
+.benefice_texte{
+
+    font-size: 25px; 
+    margin-top: 180px; 
+    margin-left: 50px;
+    text-align: left;
+}
+
+.benefice_texte h2{
+
+    padding-top: 200px;
+    margin-bottom: 20px;
+}
+
+.benefice_texte p{
+    text-align: left;
+}
+
+.benefice_texte button{
+    margin-top:  20px;
+}
